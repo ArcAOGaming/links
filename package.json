@@ -1,9 +1,18 @@
 {
-  "name": "your-package-name",
+  "name": "project-links",
   "version": "1.0.0",
-  "description": "A TypeScript npm package template with automated publishing",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "description": "Easy access to links and information for various blockchain projects",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js",
+      "default": "./dist/src/index.js"
+    }
+  },
   "files": [
     "dist",
     "src",
@@ -12,37 +21,27 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
-    "test": "jest --runInBand ./test",
-    "test:unit": "jest ./test/unit",
-    "test:integration": "jest --runInBand ./test/integration"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/your-package-name.git"
+    "url": "git+https://github.com/yourusername/project-links.git"
   },
   "author": "",
   "license": "MIT",
   "keywords": [
+    "blockchain",
+    "project-links",
     "typescript",
-    "npm",
-    "package",
-    "template"
+    "arcao",
+    "runerealm",
+    "randao",
+    "satoshispalace"
   ],
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=16.0.0"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.14",
-    "@types/node": "^22.8.6",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.2.5",
     "typescript": "^5.6.3"
-  },
-  "dependencies": {
-    "tsconfig-paths": "^4.2.0"
-  },
-  "optionalDependencies": {
-    "dotenv": "^16.4.5"
   }
 }
