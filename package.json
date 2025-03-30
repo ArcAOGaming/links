@@ -1,5 +1,5 @@
 {
-  "name": "project-links",
+  "name": "@arcaogaming/project-links",
   "version": "1.0.0",
   "description": "Easy access to links and information for various blockchain projects",
   "type": "module",
@@ -25,7 +25,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/project-links.git"
+    "url": "git+https://github.com/arcaogaming/links.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "",
   "license": "MIT",
