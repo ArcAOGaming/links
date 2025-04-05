@@ -1,6 +1,9 @@
 // ARNS Gateway
 export const DEFAULT_ARNS_GATEWAY = 'ar.ionode.online';
 
+//ARNS Names
+export const ARNS_RANDAO = 'randao'
+
 // Project Domains
 export const DOMAIN_RANDAO = 'randao.net';
 export const DOMAIN_SATOSHISPALACE = 'satoshispalace.casino';

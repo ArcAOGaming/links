@@ -8,7 +8,9 @@ import {
     DOMAIN_YOUTUBE_HANDLE,
     DOMAIN_TWITTER_INTENT,
     ARCAO_DISCORD,
-    ARCAO_TELEGRAM
+    ARCAO_TELEGRAM,
+    DEFAULT_ARNS_GATEWAY,
+    ARNS_RANDAO
 } from '../constants';
 
 export const RANDAO_LINKS: RandaoLinks = {
@@ -18,5 +20,6 @@ export const RANDAO_LINKS: RandaoLinks = {
     github: `https://${DOMAIN_GITHUB}/RandAOLabs`,
     discord: `https://${DOMAIN_DISCORD_INVITE}/${ARCAO_DISCORD}`,
     telegram: `https://${DOMAIN_TELEGRAM}/${ARCAO_TELEGRAM}`,
-    youtube: `https://${DOMAIN_YOUTUBE_HANDLE}RandAOToken`
+    youtube: `https://${DOMAIN_YOUTUBE_HANDLE}RandAOToken`,
+    providerSite: `https://providers_${ARNS_RANDAO}.${DEFAULT_ARNS_GATEWAY}`,
 };

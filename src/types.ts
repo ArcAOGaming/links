@@ -21,6 +21,7 @@ export type ArcaoLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'githu
 
 export type RunerealmLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' | 'premiumGameSite'>;
 
-export type RandaoLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube'>;
+interface RandAOSpecificLinks { providerSite: string }
+export type RandaoLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube'> & RandAOSpecificLinks;
 
 export type SatoshisPalaceLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'discord' | 'telegram'>;
