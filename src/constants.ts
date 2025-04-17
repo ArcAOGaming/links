@@ -1,5 +1,5 @@
 // ARNS Gateway
-export const DEFAULT_ARNS_GATEWAY = 'ar.ionode.online';
+export const DEFAULT_ARNS_GATEWAY = 'arnode.xyz';
 
 //ARNS Names
 export const ARNS_RANDAO = 'randao'
