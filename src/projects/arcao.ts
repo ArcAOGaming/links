@@ -12,6 +12,7 @@ import {
 } from '../constants';
 
 export const ARCAO_LINKS: ArcaoLinks = {
+    website: `https://arcao_game.${DEFAULT_ARNS_GATEWAY}`,
     twitter: `https://${DOMAIN_X}/Arc_AO`,
     twitterFollow: `https://${DOMAIN_TWITTER_INTENT}=Arc_AO`,
     github: `https://${DOMAIN_GITHUB}/ArcAOGaming`,

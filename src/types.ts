@@ -17,7 +17,7 @@ export interface AllLinkTypes {
 }
 
 // Project-specific link types
-export type ArcaoLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'>;
+export type ArcaoLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'>;
 
 export type RunerealmLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' | 'premiumGameSite'>;
 
