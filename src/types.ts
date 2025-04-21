@@ -26,3 +26,10 @@ interface RandAOSpecificLinks { providerSite: string }
 export type RandaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube'> & RandAOSpecificLinks;
 
 export type SatoshisPalaceLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'discord' | 'telegram'>;
+
+// New project-specific link types
+export type AoLinks = Pick<AllLinkTypes, 'website'>;
+
+export type AutonomousFinanceLinks = Pick<AllLinkTypes, 'website'>;
+
+export type BotegaLinks = Pick<AllLinkTypes, 'website'>;

@@ -3,10 +3,12 @@ export const DEFAULT_ARNS_GATEWAY = 'arnode.xyz';
 
 //ARNS Names
 export const ARNS_RANDAO = 'randao'
+export const ARNS_BOTEGA = 'botega.defi.ao'
 
 // Project Domains
 export const DOMAIN_RANDAO = 'randao.net';
 export const DOMAIN_SATOSHISPALACE = 'satoshispalace.casino';
+export const DOMAIN_AUTONOMOUS_FINANCE = 'www.autonomous.finance';
 
 // Social Platform Domains
 export const DOMAIN_X = 'x.com';
