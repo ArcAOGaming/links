@@ -1,6 +1,7 @@
 // All possible link types
 export interface AllLinkTypes {
     website: string;      // Main website URL
+    sdkDocs: string;
     github: string;       // GitHub repository URL
     docs: string;        // Documentation site URL
     twitter: string;     // Twitter/X profile URL
@@ -17,11 +18,11 @@ export interface AllLinkTypes {
 }
 
 // Project-specific link types
-export type ArcaoLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'>;
+export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'>;
 
 export type RunerealmLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' | 'premiumGameSite'>;
 
 interface RandAOSpecificLinks { providerSite: string }
-export type RandaoLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube'> & RandAOSpecificLinks;
+export type RandaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube'> & RandAOSpecificLinks;
 
 export type SatoshisPalaceLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'discord' | 'telegram'>;
