@@ -10,7 +10,8 @@ import {
     ARCAO_DISCORD,
     ARCAO_TELEGRAM,
     DEFAULT_ARNS_GATEWAY,
-    ARNS_RANDAO
+    ARNS_RANDAO,
+    ARNS_RANDAO_DOCS
 } from '../constants';
 
 export const RANDAO_LINKS: RandaoLinks = {
@@ -23,5 +24,6 @@ export const RANDAO_LINKS: RandaoLinks = {
     youtube: `https://${DOMAIN_YOUTUBE_HANDLE}RandAOToken`,
     providerSite: `https://providers_${ARNS_RANDAO}.${DEFAULT_ARNS_GATEWAY}`,
     sdkDocs: "https://randaolabs.github.io/ao-process-clients/",
-    videoHowRandaoWorks: "https://www.youtube.com/watch?v=z9hJnxGRxj4"
+    videoHowRandaoWorks: "https://www.youtube.com/watch?v=z9hJnxGRxj4",
+    theOnchainRandomnessProblem: `https://${ARNS_RANDAO_DOCS}.${DEFAULT_ARNS_GATEWAY}/news/the-onchain-randomness-problem`
 };

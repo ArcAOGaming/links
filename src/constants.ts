@@ -3,6 +3,7 @@ export const DEFAULT_ARNS_GATEWAY = 'arnode.xyz';
 
 //ARNS Names
 export const ARNS_RANDAO = 'randao'
+export const ARNS_RANDAO_DOCS = `docs_${ARNS_RANDAO}`
 export const ARNS_BOTEGA = 'botega.defi.ao'
 
 // Project Domains
