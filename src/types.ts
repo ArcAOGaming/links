@@ -22,7 +22,7 @@ export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 
 
 export type RunerealmLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' | 'premiumGameSite'>;
 
-interface RandAOSpecificLinks { providerSite: string }
+interface RandAOSpecificLinks { providerSite: string, videoHowRandaoWorks: string }
 export type RandaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube'> & RandAOSpecificLinks;
 
 export type SatoshisPalaceLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'discord' | 'telegram'>;
