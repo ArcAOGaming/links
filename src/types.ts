@@ -18,7 +18,8 @@ export interface AllLinkTypes {
 }
 
 // Project-specific link types
-export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'>;
+interface ArcAOSpecificLinks { acceleratorProgramSignup: string, ambassadorProgramSignup: string }
+export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'> & ArcAOSpecificLinks;;
 
 export type RunerealmLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' | 'premiumGameSite'>;
 
