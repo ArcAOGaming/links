@@ -23,5 +23,10 @@ export const ARCAO_LINKS: ArcaoLinks = {
     sdkDocs: `https://randaolabs.github.io/ao-process-clients/`,
     ambassadorProgramSignup: `https://docs-arcao_game.${DEFAULT_ARNS_GATEWAY}/news/who-are-the-arcao-ambassadors`,
     acceleratorProgramSignup: `https://docs-arcao_game.${DEFAULT_ARNS_GATEWAY}/news/accelertator`,
-    investorSignup: `https://docs-arcao_game.${DEFAULT_ARNS_GATEWAY}/docs/investors/overview`
+    investorSignup: `https://docs-arcao_game.${DEFAULT_ARNS_GATEWAY}/docs/investors/overview`,
+    fairLaunchProjectsExplanation: `https://docs-arcao_game.${DEFAULT_ARNS_GATEWAY}/news/fair-launch-projects`,
+    permawebIndexExplanation: `https://docs-arcao_game.${DEFAULT_ARNS_GATEWAY}/news/permaweb-index`,
+    useOfFundsExplanation: `https://docs-arcao_game.${DEFAULT_ARNS_GATEWAY}/news/funding`,
+    delegate: `https://arcao_game.${DEFAULT_ARNS_GATEWAY}/`
 };
+

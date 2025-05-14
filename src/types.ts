@@ -18,7 +18,7 @@ export interface AllLinkTypes {
 }
 
 // Project-specific link types
-interface ArcAOSpecificLinks { acceleratorProgramSignup: string, ambassadorProgramSignup: string, investorSignup: string }
+interface ArcAOSpecificLinks { acceleratorProgramSignup: string, ambassadorProgramSignup: string, investorSignup: string, fairLaunchProjectsExplanation: string, permawebIndexExplanation: string, useOfFundsExplanation: string, delegate: string }
 export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'> & ArcAOSpecificLinks;;
 
 export type RunerealmLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' | 'premiumGameSite'>;
@@ -29,7 +29,8 @@ export type RandaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' |
 export type SatoshisPalaceLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'twitterFollow' | 'discord' | 'telegram'>;
 
 // New project-specific link types
-export type AoLinks = Pick<AllLinkTypes, 'website'>;
+interface AOSpecificLinks { delegate: string, mint: string}
+export type AoLinks = Pick<AllLinkTypes, 'website'> & AOSpecificLinks;
 
 export type AutonomousFinanceLinks = Pick<AllLinkTypes, 'website'>;
 
