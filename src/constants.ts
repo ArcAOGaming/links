@@ -1,7 +1,4 @@
-import { getGateWay } from "./gateways";
 
-// ARNS Gateway
-export const DEFAULT_ARNS_GATEWAY = getGateWay();
 
 //ARNS Names
 export const ARNS_RANDAO = 'randao'

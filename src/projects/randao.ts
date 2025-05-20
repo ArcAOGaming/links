@@ -9,10 +9,10 @@ import {
     DOMAIN_TWITTER_INTENT,
     ARCAO_DISCORD,
     ARCAO_TELEGRAM,
-    DEFAULT_ARNS_GATEWAY,
     ARNS_RANDAO,
     ARNS_RANDAO_DOCS
 } from '../constants';
+import { getGateWay } from 'src/gateways';
 
 export const RANDAO_LINKS: RandaoLinks = {
     website: `https://${DOMAIN_RANDAO}`,
@@ -22,8 +22,8 @@ export const RANDAO_LINKS: RandaoLinks = {
     discord: `https://${DOMAIN_DISCORD_INVITE}/${ARCAO_DISCORD}`,
     telegram: `https://${DOMAIN_TELEGRAM}/${ARCAO_TELEGRAM}`,
     youtube: `https://${DOMAIN_YOUTUBE_HANDLE}RandAOToken`,
-    providerSite: `https://providers_${ARNS_RANDAO}.${DEFAULT_ARNS_GATEWAY}`,
+    providerSite: `https://providers_${ARNS_RANDAO}.${getGateWay()}`,
     sdkDocs: "https://randaolabs.github.io/ao-process-clients/",
     videoHowRandaoWorks: "https://www.youtube.com/watch?v=z9hJnxGRxj4",
-    theOnchainRandomnessProblem: `https://${ARNS_RANDAO_DOCS}.${DEFAULT_ARNS_GATEWAY}/news/the-onchain-randomness-problem`
+    theOnchainRandomnessProblem: `https://${ARNS_RANDAO_DOCS}.${getGateWay()}/news/the-onchain-randomness-problem`
 };
