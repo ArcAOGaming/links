@@ -1,5 +1,5 @@
+import { getGateWay } from 'src/gateways';
 import type { AoLinks } from '../types';
-import { getGateWay() } from '../constants';
 
 export const AO_LINKS: AoLinks = {
     website: `https://ao.${getGateWay()}`,
