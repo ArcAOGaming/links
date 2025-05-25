@@ -9,6 +9,7 @@ export const ARNS_BOTEGA = 'botega.defi.ao'
 export const DOMAIN_RANDAO = 'randao.net';
 export const DOMAIN_SATOSHISPALACE = 'satoshispalace.casino';
 export const DOMAIN_AUTONOMOUS_FINANCE = 'www.autonomous.finance';
+export const DOMAIN_WANDER = 'www.wander.app'
 
 // Social Platform Domains
 export const DOMAIN_X = 'x.com';

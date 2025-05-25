@@ -15,6 +15,7 @@ export interface AllLinkTypes {
     appSite: string;    // App site URL
     gameSite: string;   // Game site URL
     premiumGameSite: string; // Premium game site URL
+    download: string; 
 }
 
 // Project-specific link types
@@ -35,3 +36,5 @@ export type AoLinks = Pick<AllLinkTypes, 'website'> & AOSpecificLinks;
 export type AutonomousFinanceLinks = Pick<AllLinkTypes, 'website'>;
 
 export type BotegaLinks = Pick<AllLinkTypes, 'website'>;
+
+export type WanderLinks = Pick<AllLinkTypes, 'website' | 'download'>;
