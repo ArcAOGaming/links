@@ -1,4 +1,4 @@
-import { getGateWay } from 'src/gateways';
+import { getGateWay } from '../gateways';
 import type { AoLinks } from '../types';
 
 export const AO_LINKS: AoLinks = {

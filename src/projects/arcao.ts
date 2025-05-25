@@ -9,7 +9,7 @@ import {
     ARCAO_DISCORD,
     ARCAO_TELEGRAM
 } from '../constants';
-import { getGateWay } from 'src/gateways';
+import { getGateWay } from '../gateways';
 
 export const ARCAO_LINKS: ArcaoLinks = {
     website: `https://arcao_game.${getGateWay()}`,
@@ -27,6 +27,7 @@ export const ARCAO_LINKS: ArcaoLinks = {
     fairLaunchProjectsExplanation: `https://docs-arcao_game.${getGateWay()}/news/fair-launch-projects`,
     permawebIndexExplanation: `https://docs-arcao_game.${getGateWay()}/news/permaweb-index`,
     useOfFundsExplanation: `https://docs-arcao_game.${getGateWay()}/news/funding`,
-    delegate: `https://arcao_game.${getGateWay()}/`
+    delegate: `https://arcao_game.${getGateWay()}/#delegate`,
+    delegationGuide: `https://docs-arcao_game.${getGateWay()}/docs/investors/how-to-yield-game-token`,
 };
 

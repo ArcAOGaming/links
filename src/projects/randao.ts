@@ -12,7 +12,7 @@ import {
     ARNS_RANDAO,
     ARNS_RANDAO_DOCS
 } from '../constants';
-import { getGateWay } from 'src/gateways';
+import { getGateWay } from '../gateways';
 
 export const RANDAO_LINKS: RandaoLinks = {
     website: `https://${DOMAIN_RANDAO}`,

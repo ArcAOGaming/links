@@ -8,7 +8,7 @@ import {
     ARCAO_DISCORD,
     ARCAO_TELEGRAM
 } from '../constants';
-import { getGateWay } from 'src/gateways';
+import { getGateWay } from '../gateways';
 
 export const RUNEREALM_LINKS: RunerealmLinks = {
     twitter: `https://${DOMAIN_X}/runerealm_ao`,
