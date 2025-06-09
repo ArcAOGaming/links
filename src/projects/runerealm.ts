@@ -16,6 +16,6 @@ export const RUNEREALM_LINKS: RunerealmLinks = {
     github: `https://${DOMAIN_GITHUB_ORGS}/RuneRealm/repositories`,
     discord: `https://${DOMAIN_DISCORD_INVITE}/${ARCAO_DISCORD}`,
     telegram: `https://${DOMAIN_TELEGRAM}/${ARCAO_TELEGRAM}`,
-    gameSite: `https://runerealm_game.${getGateWay()}/#/`,
+    gameSite: `https://rr-mmorpg_game.${getGateWay()}/#/`,
     premiumGameSite: `https://premium_game.${getGateWay()}/`
 };
