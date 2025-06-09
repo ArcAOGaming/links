@@ -23,7 +23,7 @@ export const RANDAO_LINKS: RandaoLinks = {
     telegram: `https://${DOMAIN_TELEGRAM}/${ARCAO_TELEGRAM}`,
     youtube: `https://${DOMAIN_YOUTUBE_HANDLE}RandAOToken`,
     providerSite: `https://providers_${ARNS_RANDAO}.${getGateWay()}`,
-    sdkDocs: "https://randaolabs.github.io/ao-process-clients/",
+    sdkDocs: "https://randaolabs.github.io/ao-js-sdk/",
     videoHowRandaoWorks: "https://www.youtube.com/watch?v=z9hJnxGRxj4",
     theOnchainRandomnessProblem: `https://${ARNS_RANDAO_DOCS}.${getGateWay()}/news/the-onchain-randomness-problem`
 };
