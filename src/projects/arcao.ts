@@ -21,7 +21,7 @@ export const ARCAO_LINKS: ArcaoLinks = {
     youtube: `https://${DOMAIN_YOUTUBE}/UCZ2BLp3TXFAVs6q5S_34H0A`,
     docs: `https://docs-arcao_game.${getGateWay()}`,
     sdkDocs: `https://randaolabs.github.io/ao-process-clients/`,
-    ambassadorProgramSignup: `https://docs-arcao_game.${getGateWay()}/news/who-are-the-arcao-ambassadors`,
+    ambassadorProgramSignup: `https://game.${getGateWay()}/#ambassador`,
     ambassadorWins: 'https://discord.com/channels/1209645894039896074/1325889123382198322',
     acceleratorProgramSignup: `https://docs-arcao_game.${getGateWay()}/news/accelertator`,
     investorSignup: `https://docs-arcao_game.${getGateWay()}/docs/investors/overview`,
