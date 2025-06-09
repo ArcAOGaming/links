@@ -19,7 +19,7 @@ export interface AllLinkTypes {
 }
 
 // Project-specific link types
-interface ArcAOSpecificLinks { acceleratorProgramSignup: string, ambassadorProgramSignup: string, investorSignup: string, fairLaunchProjectsExplanation: string, permawebIndexExplanation: string, useOfFundsExplanation: string, delegate: string, delegationGuide: string }
+interface ArcAOSpecificLinks { acceleratorProgramSignup: string, ambassadorProgramSignup: string, ambassadorWins: string, investorSignup: string, fairLaunchProjectsExplanation: string, permawebIndexExplanation: string, useOfFundsExplanation: string, delegate: string, delegationGuide: string }
 export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'> & ArcAOSpecificLinks;;
 
 export type RunerealmLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' | 'premiumGameSite'>;

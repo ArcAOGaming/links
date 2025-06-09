@@ -22,6 +22,7 @@ export const ARCAO_LINKS: ArcaoLinks = {
     docs: `https://docs-arcao_game.${getGateWay()}`,
     sdkDocs: `https://randaolabs.github.io/ao-process-clients/`,
     ambassadorProgramSignup: `https://docs-arcao_game.${getGateWay()}/news/who-are-the-arcao-ambassadors`,
+    ambassadorWins: 'https://discord.com/channels/1209645894039896074/1325889123382198322',
     acceleratorProgramSignup: `https://docs-arcao_game.${getGateWay()}/news/accelertator`,
     investorSignup: `https://docs-arcao_game.${getGateWay()}/docs/investors/overview`,
     fairLaunchProjectsExplanation: `https://docs-arcao_game.${getGateWay()}/news/fair-launch-projects`,
@@ -30,4 +31,3 @@ export const ARCAO_LINKS: ArcaoLinks = {
     delegate: `https://arcao_game.${getGateWay()}/#delegate`,
     delegationGuide: `https://docs-arcao_game.${getGateWay()}/docs/investors/how-to-yield-game-token`,
 };
-
