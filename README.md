@@ -5,7 +5,7 @@ A TypeScript package providing easy access to links and information for various 
 ## Installation
 
 ```bash
-npm install project-links
+npm install @arcaogaming/project-links
 ```
 
 ## Usage
