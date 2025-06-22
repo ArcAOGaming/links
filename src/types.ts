@@ -14,7 +14,6 @@ export interface AllLinkTypes {
     demoSite: string;   // Demo site URL
     appSite: string;    // App site URL
     gameSite: string;   // Game site URL
-    premiumGameSite: string; // Premium game site URL
     download: string; 
 }
 
@@ -22,7 +21,8 @@ export interface AllLinkTypes {
 interface ArcAOSpecificLinks { acceleratorProgramSignup: string, ambassadorProgramSignup: string, ambassadorWins: string, investorSignup: string, fairLaunchProjectsExplanation: string, permawebIndexExplanation: string, useOfFundsExplanation: string, delegate: string, delegationGuide: string }
 export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs'> & ArcAOSpecificLinks;;
 
-export type RunerealmLinks = Pick<AllLinkTypes, 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' | 'premiumGameSite'>;
+interface RuneRealmSpecificLinks { premiumGameSite: string }
+export type RunerealmLinks = Pick<AllLinkTypes, 'appSite' | 'website' |'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite' > & RuneRealmSpecificLinks;
 
 interface RandAOSpecificLinks { providerSite: string, videoHowRandaoWorks: string, theOnchainRandomnessProblem: string }
 export type RandaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube'> & RandAOSpecificLinks;

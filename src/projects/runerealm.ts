@@ -10,12 +10,17 @@ import {
 } from '../constants';
 import { getGateWay } from '../gateways';
 
+
+const appSite = `https://runerealm_game.${getGateWay()}/`
+
 export const RUNEREALM_LINKS: RunerealmLinks = {
     twitter: `https://${DOMAIN_X}/runerealm_ao`,
     twitterFollow: `https://${DOMAIN_TWITTER_INTENT}=runerealm_ao`,
     github: `https://${DOMAIN_GITHUB_ORGS}/RuneRealm/repositories`,
     discord: `https://${DOMAIN_DISCORD_INVITE}/${ARCAO_DISCORD}`,
     telegram: `https://${DOMAIN_TELEGRAM}/${ARCAO_TELEGRAM}`,
-    gameSite: `https://rr-mmorpg_game.${getGateWay()}/#/`,
-    premiumGameSite: `https://premium_game.${getGateWay()}/`
+    gameSite: `https://runerealm_game.${getGateWay()}/reality`,
+    premiumGameSite: appSite,
+    website: `https://runerealm-onchain_game.${getGateWay()}/`,
+    appSite: appSite
 };
