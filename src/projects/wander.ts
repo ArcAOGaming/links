@@ -3,7 +3,7 @@ import {
     DOMAIN_WANDER
 } from '../constants';
 
-export const ARCAO_LINKS: WanderLinks = {
+export const WANDER_LINKS: WanderLinks = {
     website: `https://${DOMAIN_WANDER}`,
     download: `https://${DOMAIN_WANDER}/download?tab=download-browser`
 };

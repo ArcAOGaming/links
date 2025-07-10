@@ -11,7 +11,9 @@ import type {
     SatoshisPalaceLinks,
     AoLinks,
     AutonomousFinanceLinks,
-    BotegaLinks
+    BotegaLinks,
+    BazarLinks,
+    WanderLinks
 } from './types';
 
 // Import project links
@@ -22,6 +24,8 @@ import { SATOSHISPALACE_LINKS } from './projects/satoshispalace';
 import { AO_LINKS } from './projects/ao';
 import { AUTONOMOUS_FINANCE_LINKS } from './projects/autonomousFinance';
 import { BOTEGA_LINKS } from './projects/botega';
+import { BAZAR_Links } from './projects/bazar';
+import { WANDER_LINKS } from './projects/wander';
 
 // Export project links with their specific types
 export const ARCAO: ArcaoLinks = ARCAO_LINKS;
@@ -31,6 +35,8 @@ export const SATOSHISPALACE: SatoshisPalaceLinks = SATOSHISPALACE_LINKS;
 export const AO: AoLinks = AO_LINKS;
 export const AUTONOMOUS_FINANCE: AutonomousFinanceLinks = AUTONOMOUS_FINANCE_LINKS;
 export const BOTEGA: BotegaLinks = BOTEGA_LINKS;
+export const BAZAR: BazarLinks = BAZAR_Links;
+export const WANDER: WanderLinks = WANDER_LINKS;
 
 // Export all projects in a single object
 export const PROJECTS = {
@@ -51,6 +57,8 @@ export type {
     SatoshisPalaceLinks,
     AoLinks,
     AutonomousFinanceLinks,
-    BotegaLinks
+    BotegaLinks,
+    BazarLinks,
+    WanderLinks
 } from './types';
 export * from './constants';
