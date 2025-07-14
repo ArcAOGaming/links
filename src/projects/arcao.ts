@@ -20,6 +20,7 @@ export const ARCAO_LINKS: ArcaoLinks = {
     telegram: `https://${DOMAIN_TELEGRAM}/${ARCAO_TELEGRAM}`,
     youtube: `https://${DOMAIN_YOUTUBE}/UCZ2BLp3TXFAVs6q5S_34H0A`,
     docs: `https://docs-arcao_game.${getGateWay()}`,
+    mediaKit: `https://docs-arcao_game.${getGateWay()}/media-kit`,
     sdkDocs: `https://randaolabs.github.io/ao-js-sdk/`,
     ambassadorProgramSignup: `https://game.${getGateWay()}/#ambassador`,
     ambassadorWins: 'https://discord.com/channels/1209645894039896074/1325889123382198322',
