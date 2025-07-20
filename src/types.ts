@@ -45,3 +45,5 @@ export type BazarLinks = Pick<AllLinkTypes, 'website'>;
 export type WeareweLinks = Pick<AllLinkTypes, 'website' | 'twitter'>;
 
 export type MekahumanLinks = Pick<AllLinkTypes, 'website' | 'twitter'>;
+
+export type GameLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs' | 'mediaKit'> & ArcAOSpecificLinks;

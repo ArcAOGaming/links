@@ -15,7 +15,8 @@ import type {
     BazarLinks,
     WanderLinks,
     WeareweLinks,
-    MekahumanLinks
+    MekahumanLinks,
+    GameLinks
 } from './types';
 
 // Import project links
@@ -30,6 +31,7 @@ import { BAZAR_Links } from './projects/bazar';
 import { WANDER_LINKS } from './projects/wander';
 import { WEAREWE_LINKS } from './projects/wearewe';
 import { MEKAHUMAN_LINKS } from './projects/mekahuman';
+import { GAME_LINKS } from './projects/game';
 
 // Export project links with their specific types
 export const ARCAO: ArcaoLinks = ARCAO_LINKS;
@@ -43,6 +45,7 @@ export const BAZAR: BazarLinks = BAZAR_Links;
 export const WANDER: WanderLinks = WANDER_LINKS;
 export const WEAREWE: WeareweLinks = WEAREWE_LINKS;
 export const MEKAHUMAN: MekahumanLinks = MEKAHUMAN_LINKS;
+export const GAME: GameLinks = GAME_LINKS
 
 // Export all projects in a single object
 export const PROJECTS = {
@@ -56,7 +59,8 @@ export const PROJECTS = {
     BAZAR,
     WANDER,
     WEAREWE,
-    MEKAHUMAN
+    MEKAHUMAN,
+    GAME
 } as const;
 
 // Export types and constants
@@ -71,6 +75,7 @@ export type {
     BazarLinks,
     WanderLinks,
     WeareweLinks,
-    MekahumanLinks
+    MekahumanLinks,
+    GameLinks
 } from './types';
 export * from './constants';
