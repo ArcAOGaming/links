@@ -41,3 +41,7 @@ export type BotegaLinks = Pick<AllLinkTypes, 'website'>;
 export type WanderLinks = Pick<AllLinkTypes, 'website' | 'download'>;
 
 export type BazarLinks = Pick<AllLinkTypes, 'website'>;
+
+export type WeareweLinks = Pick<AllLinkTypes, 'website' | 'twitter'>;
+
+export type MekahumanLinks = Pick<AllLinkTypes, 'website' | 'twitter'>;

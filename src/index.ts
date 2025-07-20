@@ -4,16 +4,18 @@
  */
 
 // Import project-specific types
-import type { 
-    ArcaoLinks, 
-    RunerealmLinks, 
-    RandaoLinks, 
+import type {
+    ArcaoLinks,
+    RunerealmLinks,
+    RandaoLinks,
     SatoshisPalaceLinks,
     AoLinks,
     AutonomousFinanceLinks,
     BotegaLinks,
     BazarLinks,
-    WanderLinks
+    WanderLinks,
+    WeareweLinks,
+    MekahumanLinks
 } from './types';
 
 // Import project links
@@ -26,6 +28,8 @@ import { AUTONOMOUS_FINANCE_LINKS } from './projects/autonomousFinance';
 import { BOTEGA_LINKS } from './projects/botega';
 import { BAZAR_Links } from './projects/bazar';
 import { WANDER_LINKS } from './projects/wander';
+import { WEAREWE_LINKS } from './projects/wearewe';
+import { MEKAHUMAN_LINKS } from './projects/mekahuman';
 
 // Export project links with their specific types
 export const ARCAO: ArcaoLinks = ARCAO_LINKS;
@@ -37,6 +41,8 @@ export const AUTONOMOUS_FINANCE: AutonomousFinanceLinks = AUTONOMOUS_FINANCE_LIN
 export const BOTEGA: BotegaLinks = BOTEGA_LINKS;
 export const BAZAR: BazarLinks = BAZAR_Links;
 export const WANDER: WanderLinks = WANDER_LINKS;
+export const WEAREWE: WeareweLinks = WEAREWE_LINKS;
+export const MEKAHUMAN: MekahumanLinks = MEKAHUMAN_LINKS;
 
 // Export all projects in a single object
 export const PROJECTS = {
@@ -46,19 +52,25 @@ export const PROJECTS = {
     SATOSHISPALACE,
     AO,
     AUTONOMOUS_FINANCE,
-    BOTEGA
+    BOTEGA,
+    BAZAR,
+    WANDER,
+    WEAREWE,
+    MEKAHUMAN
 } as const;
 
 // Export types and constants
-export type { 
-    ArcaoLinks, 
-    RunerealmLinks, 
-    RandaoLinks, 
+export type {
+    ArcaoLinks,
+    RunerealmLinks,
+    RandaoLinks,
     SatoshisPalaceLinks,
     AoLinks,
     AutonomousFinanceLinks,
     BotegaLinks,
     BazarLinks,
-    WanderLinks
+    WanderLinks,
+    WeareweLinks,
+    MekahumanLinks
 } from './types';
 export * from './constants';
