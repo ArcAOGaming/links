@@ -3,6 +3,7 @@ import type { AoLinks } from '../types';
 
 export const AO_LINKS: AoLinks = {
     website: `https://ao.${getGateWay()}`,
-    delegate:`https://ao.${getGateWay()}/#/delegate/`,
-    mint: `https://ao.${getGateWay()}/#/mint/deposits/`
+    delegate: `https://ao.${getGateWay()}/#/delegate/`,
+    mint: `https://ao.${getGateWay()}/#/mint/deposits/`,
+    twitter: "https://x.com/aoTheComputer"
 };

@@ -32,7 +32,7 @@ export type SatoshisPalaceLinks = Pick<AllLinkTypes, 'website' | 'twitter' | 'tw
 
 // New project-specific link types
 interface AOSpecificLinks { delegate: string, mint: string }
-export type AoLinks = Pick<AllLinkTypes, 'website'> & AOSpecificLinks;
+export type AoLinks = Pick<AllLinkTypes, 'website' | 'twitter'> & AOSpecificLinks;
 
 export type AutonomousFinanceLinks = Pick<AllLinkTypes, 'website'>;
 
