@@ -5,6 +5,7 @@ import {
     DOMAIN_DISCORD_INVITE,
     DOMAIN_TELEGRAM,
     DOMAIN_TWITTER_INTENT,
+    DOMAIN_YOUTUBE_HANDLE,
     ARCAO_DISCORD,
     ARCAO_TELEGRAM
 } from '../constants';
@@ -19,6 +20,7 @@ export const RUNEREALM_LINKS: RunerealmLinks = {
     github: `https://${DOMAIN_GITHUB_ORGS}/RuneRealm/repositories`,
     discord: `https://${DOMAIN_DISCORD_INVITE}/${ARCAO_DISCORD}`,
     telegram: `https://${DOMAIN_TELEGRAM}/${ARCAO_TELEGRAM}`,
+    youtube: `https://${DOMAIN_YOUTUBE_HANDLE}RuneRealmOnchain`,
     gameSite: `https://runerealm_game.${getGateWay()}/reality`,
     premiumGameSite: appSite,
     website: `https://runerealm-onchain_game.${getGateWay()}/`,

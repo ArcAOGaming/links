@@ -23,7 +23,7 @@ interface ArcAOSpecificLinks { acceleratorProgramSignup: string, ambassadorProgr
 export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs' | 'mediaKit'> & ArcAOSpecificLinks;;
 
 interface RuneRealmSpecificLinks { premiumGameSite: string }
-export type RunerealmLinks = Pick<AllLinkTypes, 'appSite' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'gameSite'> & RuneRealmSpecificLinks;
+export type RunerealmLinks = Pick<AllLinkTypes, 'appSite' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'gameSite'> & RuneRealmSpecificLinks;
 
 interface RandAOSpecificLinks { providerSite: string, videoHowRandaoWorks: string, theOnchainRandomnessProblem: string }
 export type RandaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'mediaKit'> & RandAOSpecificLinks;
