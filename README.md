@@ -13,35 +13,17 @@ npm install @arcaogaming/project-links
 ### Accessing Project Links
 
 ```typescript
-import { PROJECTS, ARCAO_LINKS } from 'project-links';
+import { ARCAO, RANDAO } from 'project-links';
 
 // Access all projects
-console.log(PROJECTS.ARCAO_LINKS.website);     // https://arcao.xyz
-console.log(PROJECTS.RANDAO_LINKS.twitter);    // https://twitter.com/randaoxyz
-console.log(PROJECTS.RANDAO_LINKS.twitterFollow); // https://twitter.com/intent/follow?screen_name=randaoxyz
+console.log(ARCAO.website);     // https://arcao.xyz
+console.log(RANDAO.twitter);    // https://twitter.com/randaoxyz
+console.log(RANDAO.twitterFollow); // https://twitter.com/intent/follow?screen_name=randaoxyz
 
 // Or import specific project
-console.log(ARCAO_LINKS.discord);  // https://discord.gg/arcao
+console.log(ARCAO.discord);  // https://discord.gg/arcao
 ```
 
-### Using Link Generators
-
-```typescript
-import { SocialLinkGenerator, ProjectLinkGenerator } from 'project-links';
-
-// Generate social links
-const twitterLink = SocialLinkGenerator.generateTwitterLink('username');
-const twitterFollow = SocialLinkGenerator.generateTwitterFollowLink('username');
-const githubLink = SocialLinkGenerator.generateGithubLink('org');
-const discordLink = SocialLinkGenerator.generateDiscordLink('server');
-const mirrorLink = SocialLinkGenerator.generateMirrorLink('user.eth');
-
-// Generate project links
-const websiteLink = ProjectLinkGenerator.generateWebsiteLink('domain.xyz');
-const docsLink = ProjectLinkGenerator.generateDocsLink('domain.xyz');
-const dappLink = ProjectLinkGenerator.generateDappLink('domain.xyz');
-const explorerLink = ProjectLinkGenerator.generateExplorerLink('0x...', 'ethereum');
-```
 
 ## Available Projects
 
@@ -56,8 +38,3 @@ const explorerLink = ProjectLinkGenerator.generateExplorerLink('0x...', 'ethereu
 ### RanDAO (`RANDAO_LINKS`)
 - Decentralized randomness protocol
 - Links: Website, GitHub, Docs, Whitepaper, Twitter (+ Follow), Discord, Mirror, Explorer
-
-### Satoshi's Palace (`SATOSHISPALACE_LINKS`)
-- Bitcoin gaming platform
-- Links: Website, GitHub, Docs, Twitter (+ Follow), Discord, Mirror, dApp
-

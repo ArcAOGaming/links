@@ -10,7 +10,6 @@ const ARNS_GATEWAYS = [
     "ar01.fyeo.io",
     "arweave.zelf.world",
     "cyanalp.cfd",
-    "openar.dev",
     "siyantest.xyz",
     "zaurmammadov.xyz",
     "permadao.io",
@@ -22,10 +21,7 @@ const ARNS_GATEWAYS = [
     "adn79.pro",
     "permagate.io",
     "asilkan.online",
-    "g8way.io",
     "zigza.xyz",
-    "canduesed.me",
-    "krayir.xyz",
     "0xyvz.xyz",
     "anaraydinli.xyz",
     "defi.ao"
