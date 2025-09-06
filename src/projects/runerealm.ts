@@ -21,7 +21,8 @@ export const RUNEREALM_LINKS: RunerealmLinks = {
     discord: `https://${DOMAIN_DISCORD_INVITE}/${ARCAO_DISCORD}`,
     telegram: `https://${DOMAIN_TELEGRAM}/${ARCAO_TELEGRAM}`,
     youtube: `https://${DOMAIN_YOUTUBE_HANDLE}RuneRealmOnchain`,
-    gameSite: `https://runerealm_game.${getGateWay()}/reality`,
+    gameSite: appSite,
+    openWorld: `https://runerealm_game.${getGateWay()}/reality`,
     premiumGameSite: appSite,
     website: `https://runerealm-onchain_game.${getGateWay()}/`,
     appSite: appSite

@@ -20,9 +20,12 @@ export interface AllLinkTypes {
 
 // Project-specific link types
 interface ArcAOSpecificLinks { acceleratorProgramSignup: string, ambassadorProgramSignup: string, ambassadorWins: string, investorSignup: string, fairLaunchProjectsExplanation: string, permawebIndexExplanation: string, useOfFundsExplanation: string, delegate: string, delegationGuide: string }
+/**
+ * @deprecated use GameLinks instead
+ */
 export type ArcaoLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs' | 'mediaKit'> & ArcAOSpecificLinks;;
 
-interface RuneRealmSpecificLinks { premiumGameSite: string }
+interface RuneRealmSpecificLinks { premiumGameSite: string, openWorld: string }
 export type RunerealmLinks = Pick<AllLinkTypes, 'appSite' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'gameSite'> & RuneRealmSpecificLinks;
 
 interface RandAOSpecificLinks { providerSite: string, videoHowRandaoWorks: string, theOnchainRandomnessProblem: string }
