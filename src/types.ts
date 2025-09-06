@@ -41,6 +41,8 @@ export type AutonomousFinanceLinks = Pick<AllLinkTypes, 'website'>;
 
 export type BotegaLinks = Pick<AllLinkTypes, 'website'>;
 
+export type PermaswapLinks = Pick<AllLinkTypes, 'website' | 'appSite'>;
+
 export type WanderLinks = Pick<AllLinkTypes, 'website' | 'download'>;
 
 export type BazarLinks = Pick<AllLinkTypes, 'website'>;

@@ -4,6 +4,7 @@
 export const ARNS_RANDAO = 'randao'
 export const ARNS_RANDAO_DOCS = `docs_${ARNS_RANDAO}`
 export const ARNS_BOTEGA = 'botega.defi.ao'
+export const ARNS_PERMASWAP = 'permaswap.defi.ao'
 
 // Project Domains
 export const DOMAIN_RANDAO = 'randao.net';

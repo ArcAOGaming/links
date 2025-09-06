@@ -16,7 +16,8 @@ import type {
     WanderLinks,
     WeareweLinks,
     MekahumanLinks,
-    GameLinks
+    GameLinks,
+    PermaswapLinks
 } from './types';
 
 // Import project links
@@ -32,6 +33,7 @@ import { WANDER_LINKS } from './projects/wander';
 import { WEAREWE_LINKS } from './projects/wearewe';
 import { MEKAHUMAN_LINKS } from './projects/mekahuman';
 import { GAME_LINKS } from './projects/game';
+import { PERMASWAP_LINKS } from './projects/permaswap';
 
 // Export project links with their specific types
 export const ARCAO: ArcaoLinks = ARCAO_LINKS;
@@ -41,6 +43,7 @@ export const SATOSHISPALACE: SatoshisPalaceLinks = SATOSHISPALACE_LINKS;
 export const AO: AoLinks = AO_LINKS;
 export const AUTONOMOUS_FINANCE: AutonomousFinanceLinks = AUTONOMOUS_FINANCE_LINKS;
 export const BOTEGA: BotegaLinks = BOTEGA_LINKS;
+export const PERMASWAP: PermaswapLinks = PERMASWAP_LINKS;
 export const BAZAR: BazarLinks = BAZAR_Links;
 export const WANDER: WanderLinks = WANDER_LINKS;
 export const WEAREWE: WeareweLinks = WEAREWE_LINKS;
@@ -60,7 +63,8 @@ export const PROJECTS = {
     WANDER,
     WEAREWE,
     MEKAHUMAN,
-    GAME
+    GAME,
+    PERMASWAP
 } as const;
 
 // Export types and constants
@@ -76,6 +80,7 @@ export type {
     WanderLinks,
     WeareweLinks,
     MekahumanLinks,
-    GameLinks
+    GameLinks,
+    PermaswapLinks
 } from './types';
 export * from './constants';
