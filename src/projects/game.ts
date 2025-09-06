@@ -5,4 +5,5 @@ import { getGateWay } from '../gateways';
 export const GAME_LINKS: GameLinks = {
     ...ARCAO_LINKS,
     website: `https://game.${getGateWay()}`,
+    yieldFarming: `https://game.${getGateWay()}/yield-farming`
 };
