@@ -1,5 +1,3 @@
-
-
 //ARNS Names
 export const ARNS_RANDAO = 'randao'
 export const ARNS_RANDAO_DOCS = `docs_${ARNS_RANDAO}`
@@ -26,4 +24,6 @@ export const DOMAIN_YOUTUBE_HANDLE = 'youtube.com/@';
 export const ARCAO_DISCORD = 'arc-ao';
 export const ARCAO_TELEGRAM = 'ArcAOGames';
 
-
+// New Project Domains
+export const DOMAIN_VENTO = 'ventoswap.com';
+export const DOMAIN_BEACON = 'getbeaconapp.com';

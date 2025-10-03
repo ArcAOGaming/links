@@ -17,7 +17,10 @@ import type {
     WeareweLinks,
     MekahumanLinks,
     GameLinks,
-    PermaswapLinks
+    PermaswapLinks,
+    ForwardResearchLinks,
+    VentoLinks,
+    BeaconLinks
 } from './types';
 
 // Import project links
@@ -34,6 +37,9 @@ import { WEAREWE_LINKS } from './projects/wearewe';
 import { MEKAHUMAN_LINKS } from './projects/mekahuman';
 import { GAME_LINKS } from './projects/game';
 import { PERMASWAP_LINKS } from './projects/permaswap';
+import { FORWARDRESEARCH_LINKS } from './projects/forwardresearch';
+import { VENTO_LINKS } from './projects/vento';
+import { BEACON_LINKS } from './projects/beacon';
 
 // Export project links with their specific types
 export const ARCAO: ArcaoLinks = ARCAO_LINKS;
@@ -48,7 +54,10 @@ export const BAZAR: BazarLinks = BAZAR_Links;
 export const WANDER: WanderLinks = WANDER_LINKS;
 export const WEAREWE: WeareweLinks = WEAREWE_LINKS;
 export const MEKAHUMAN: MekahumanLinks = MEKAHUMAN_LINKS;
-export const GAME: GameLinks = GAME_LINKS
+export const GAME: GameLinks = GAME_LINKS;
+export const FORWARDRESEARCH: ForwardResearchLinks = FORWARDRESEARCH_LINKS;
+export const VENTO: VentoLinks = VENTO_LINKS;
+export const BEACON: BeaconLinks = BEACON_LINKS;
 
 // Export all projects in a single object
 export const PROJECTS = {
@@ -64,7 +73,10 @@ export const PROJECTS = {
     WEAREWE,
     MEKAHUMAN,
     GAME,
-    PERMASWAP
+    PERMASWAP,
+    FORWARDRESEARCH,
+    VENTO,
+    BEACON
 } as const;
 
 // Export types and constants
@@ -81,6 +93,9 @@ export type {
     WeareweLinks,
     MekahumanLinks,
     GameLinks,
-    PermaswapLinks
+    PermaswapLinks,
+    ForwardResearchLinks,
+    VentoLinks,
+    BeaconLinks
 } from './types';
 export * from './constants';

@@ -53,3 +53,9 @@ export type MekahumanLinks = Pick<AllLinkTypes, 'website' | 'twitter'>;
 
 interface GameSpecificLinks { yieldFarming: string }
 export type GameLinks = Pick<AllLinkTypes, 'sdkDocs' | 'website' | 'twitter' | 'twitterFollow' | 'github' | 'discord' | 'telegram' | 'youtube' | 'docs' | 'mediaKit'> & ArcAOSpecificLinks & GameSpecificLinks;
+
+export type ForwardResearchLinks = Pick<AllLinkTypes, 'website'>;
+
+export type VentoLinks = Pick<AllLinkTypes, 'website'>;
+
+export type BeaconLinks = Pick<AllLinkTypes, 'website'>;
