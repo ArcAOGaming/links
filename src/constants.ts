@@ -27,3 +27,4 @@ export const ARCAO_TELEGRAM = 'ArcAOGames';
 // New Project Domains
 export const DOMAIN_VENTO = 'ventoswap.com';
 export const DOMAIN_BEACON = 'getbeaconapp.com';
+export const DOMAIN_ASTROUSD = 'www.astrousd.com';

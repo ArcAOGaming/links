@@ -59,3 +59,5 @@ export type ForwardResearchLinks = Pick<AllLinkTypes, 'website'>;
 export type VentoLinks = Pick<AllLinkTypes, 'website'>;
 
 export type BeaconLinks = Pick<AllLinkTypes, 'website'>;
+
+export type AstrousdLinks = Pick<AllLinkTypes, 'website'>;
