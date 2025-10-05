@@ -26,5 +26,6 @@ export const RANDAO_LINKS: RandaoLinks = {
     providerSite: `https://providers_${ARNS_RANDAO}.${getGateWay()}`,
     sdkDocs: "https://randaolabs.github.io/ao-js-sdk/",
     videoHowRandaoWorks: "https://www.youtube.com/watch?v=z9hJnxGRxj4",
-    theOnchainRandomnessProblem: `https://${ARNS_RANDAO_DOCS}.${getGateWay()}/news/the-onchain-randomness-problem`
+    theOnchainRandomnessProblem: `https://${ARNS_RANDAO_DOCS}.${getGateWay()}/news/the-onchain-randomness-problem`,
+    aosLuaDocs: "https://github.com/RandAOLabs/Random-Module"
 };
